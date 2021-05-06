@@ -1,2 +1,2 @@
 (()=>{var o={326:o=>{o.exports={a:1}}},r={};function e(t){if(r[t])return r[t].exports;var s=r[t]={exports:{}};return o[t](s,s.exports,e),s.exports}(()=>{const o=e(326);console.log("hi"),console.log(o)})()})();
- // 1212312323
+ // xx 公司

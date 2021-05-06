@@ -1,5 +1,5 @@
 
-const RawSource = require('webpack-sources/lib/RawSource')
+const RawSource = require('webpack-sources').RawSource
 
 class HelloWorldPlugin {
   apply(compiler) {
@@ -7,7 +7,7 @@ class HelloWorldPlugin {
       stats /* stats is passed as an argument when done hook is tapped.  */
     ) => {
       Object.keys(stats.assets).map(filename => {
-        stats.assets[filename] = new RawSource(stats.assets[filename].source() + '\n // 1212312323')
+        stats.assets[filename] = new RawSource(stats.assets[filename].source() + '\n // xx 公司')
       })
     });
   }
