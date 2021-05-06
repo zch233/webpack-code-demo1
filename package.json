@@ -5,6 +5,9 @@
   "repository": "git@github.com:zch233/webpack-code-demo1.git",
   "author": "zhangchao <529743595@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "webpack": "5.10.1",
     "webpack-cli": "4.2.0"
